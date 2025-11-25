@@ -1,0 +1,57 @@
+guid: 381c3336-a44b-4c5f-ace4-cb1876fda19e
+answer:
+  name: first commit
+  tables:
+  - id: (Sample) Retail - Apparel
+    name: (Sample) Retail - Apparel
+    fqn: cd252e5c-b552-49a8-821d-3eadaa049cca
+  search_query: "[quantity purchased] [sales] [city] [county] [item type] [latitude]"
+  answer_columns:
+  - name: Total quantity purchased
+  - name: Total sales
+  - name: city
+  - name: county
+  - name: item type
+  - name: latitude
+  table:
+    table_columns:
+    - column_id: Total quantity purchased
+      show_headline: false
+    - column_id: Total sales
+      show_headline: false
+    - column_id: city
+      show_headline: false
+    - column_id: county
+      show_headline: false
+    - column_id: item type
+      show_headline: false
+    - column_id: latitude
+      show_headline: false
+    ordered_column_ids:
+    - city
+    - county
+    - item type
+    - latitude
+    - Total quantity purchased
+    - Total sales
+    client_state: ""
+    client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+  chart:
+    type: COLUMN
+    chart_columns:
+    - column_id: Total quantity purchased
+    - column_id: Total sales
+    - column_id: city
+    - column_id: county
+    - column_id: item type
+    - column_id: latitude
+    axis_configs:
+    - x:
+      - latitude
+      "y":
+      - Total quantity purchased
+      - Total sales
+    client_state: ""
+    client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"city\",\"columnProperty\": {}},{\"columnId\": \"county\",\"columnProperty\": {}},{\"columnId\": \"item type\",\"columnProperty\": {}},{\"columnId\": \"Total quantity purchased\",\"columnProperty\": {}},{\"columnId\": \"Total sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"latitude\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b4640421-479c-491e-847f-3b1cb10dcff3\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total quantity purchased\"],\"isOpposite\": false}},{\"id\": \"1cc3baaa-3859-4e59-b24e-9012eb2489b4\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total sales\"],\"isOpposite\": true}},{\"id\": \"fd43ec5a-72e1-45a8-aad3-53a6f166369b\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"latitude\"]}}]}"
+  display_mode: TABLE_MODE
+  dynamic_name: first commit
