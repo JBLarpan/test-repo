@@ -1,0 +1,33 @@
+guid: f4eef409-c6b0-4cc2-9e04-4385eaca1e41
+table:
+  name: DIM_EMPLOYEES_DEMO
+  db: ADV_DATA_MODEL
+  schema: PUBLIC
+  db_table: DIM_EMPLOYEES_DEMO
+  connection:
+    name: abc
+    fqn: e3ed032f-7eff-4efa-9a99-4f4d9c4b7c80
+  columns:
+  - name: EMP_ID
+    db_column_name: EMP_ID
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+    db_column_properties:
+      data_type: INT64
+  - name: NAME
+    db_column_name: NAME
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  - name: TITLE
+    db_column_name: TITLE
+    properties:
+      column_type: ATTRIBUTE
+    db_column_properties:
+      data_type: VARCHAR
+  properties:
+    spotter_config:
+      is_spotter_enabled: false
