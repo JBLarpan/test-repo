@@ -1,0 +1,51 @@
+guid: 0b0eaa9f-f893-440b-bb30-9aa8ad02dfe0
+answer:
+  name: 2nd one
+  tables:
+  - id: (Sample) Retail - Apparel
+    name: (Sample) Retail - Apparel
+    fqn: cd252e5c-b552-49a8-821d-3eadaa049cca
+  search_query: "[quantity purchased] [city] [county] [item type] [store]"
+  answer_columns:
+  - name: Total quantity purchased
+  - name: city
+  - name: county
+  - name: item type
+  - name: store
+  table:
+    table_columns:
+    - column_id: Total quantity purchased
+      show_headline: false
+    - column_id: city
+      show_headline: false
+    - column_id: county
+      show_headline: false
+    - column_id: item type
+      show_headline: false
+    - column_id: store
+      show_headline: false
+    ordered_column_ids:
+    - city
+    - county
+    - item type
+    - store
+    - Total quantity purchased
+    client_state: ""
+    client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+  chart:
+    type: COLUMN
+    chart_columns:
+    - column_id: Total quantity purchased
+    - column_id: city
+    - column_id: county
+    - column_id: item type
+    - column_id: store
+    axis_configs:
+    - x:
+      - store
+      "y":
+      - Total quantity purchased
+    client_state: ""
+    client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"city\",\"columnProperty\": {}},{\"columnId\": \"county\",\"columnProperty\": {}},{\"columnId\": \"item type\",\"columnProperty\": {}},{\"columnId\": \"store\",\"columnProperty\": {}},{\"columnId\": \"Total quantity purchased\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"fb322504-3718-477a-a2e0-ea5b5c99c9b8\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total quantity purchased\"],\"isOpposite\": false}},{\"id\": \"0f3128b7-6577-4822-a800-7c72f00d9c38\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"store\"]}}]}"
+  display_mode: TABLE_MODE
+  dynamic_name: 2nd one
